@@ -1,0 +1,126 @@
+html {
+  font-family: garamond;
+  background-color: #ffebcc;
+}
+
+header {
+  font-size: 50;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+#navbar {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color: #ffd699;
+}
+
+#main-doc {
+  position: absolute;
+  left: 350px;
+}
+
+a {
+  display: block;
+  padding: 20px;
+  font-size: 25;
+  border-top: solid 1px black;
+  color: black;
+  text-decoration: none;
+}
+
+section header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.intro {
+  padding: 20px;  
+  min-width: 450px;
+  overflow: hidden;
+}
+
+img {
+  width: 100px;
+  float: left;
+  margin: 20px;
+}
+
+#harry {
+  background-color: #ffc266;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 55px;
+}
+
+#kim {
+  background-color: #ffc266;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 20px;
+}
+
+#joyce {
+  background-color: #ffc266;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 50px;
+}
+
+#evrart{
+  background-color: #ffc266;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 35px;
+}
+
+#phasmid {
+  background-color: #ffc266;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  margin-right: 20px;
+  display: block;
+  min-width: 500px;
+  clear: left;
+}
+
+li {
+  list-style: none;
+  margin: 20 0 0 10;
+  font-size: 20;
+  display: block;
+  clear: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
