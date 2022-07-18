@@ -1,0 +1,79 @@
+h1{
+    background: #000000;
+    width: auto;
+    text-align: center;
+    font-family: Sans-serif;
+    font-size: 75px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #00ffff;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  body{
+    background: url(https://i.imgur.com/9M2vtHJ.jpeg);
+    background-position: center;
+    font-family: Garamond;
+    font-size: 20px;
+  }
+  
+  form{
+    margin: 20px;
+    background: #e6e6e6;
+    padding: 0 20 40 20;
+  }
+  
+  fieldset {
+    border: none;
+    padding-bottom: 20px
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  p[id="description"]{
+    background: #e6e6e6;
+    padding: 20px;
+    margin: 20 20 0 20;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  label{
+    display: block;
+    margin: 5px;
+  }
+  
+  input, textarea, select{
+    width: 100%;
+    margin: 10 0 10 0;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .inline{
+    width: unset;
+  }
+  
+  ::placeholder {
+    color: #995c00;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    color: #995c00;
+    background-color: #1a1a1a;
+    min-height: 25px;
+  }
+  
+  hr {
+    height: 3px;
+    width: 75%;
+    background-color: #995c00;
+    border-color: #995c00;
+  }
